@@ -1,0 +1,266 @@
+@charset "utf-8";
+body {
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.text {
+  width: 100px;
+  height: 5px;
+  margin: 50;
+  padding: 25px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+   border-radius: 20px;
+}
+
+  .button {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 15px;
+  transition-duration: 0.5s; 
+  
+}
+.buttonPI {
+  color: black;
+  background-color: rgb(177, 177, 177);
+
+}
+
+.buttonPI:hover {
+  background-color: rgb(115, 115, 115);
+  color: black;
+}
+.buttonraiz {
+  color: black;
+  background-color: rgb(177, 177, 177);
+
+}
+
+.buttonraiz:hover {
+  background-color: rgb(115, 115, 115);
+  color: black;
+}
+    
+     .buttonac {
+       background-color: rgb(211, 78, 78);
+       color: white;
+     }
+
+     .buttonac:hover {
+       background-color: rgb(222, 231, 99);
+       color: black;
+     }
+    .buttonmod {
+      background-color: rgb(177, 177, 177);
+      color: black;
+   
+      
+    }
+    
+    .buttonmod:hover {
+      background-color: rgb(115, 115, 115);
+      color: white;
+    }
+     .buttoninv {
+       background-color: rgb(177, 177, 177);
+       color: black;
+
+
+     }
+
+     .buttoninv:hover {
+       background-color: rgb(115, 115, 115);
+       color: white;
+     }
+    
+    .buttonfct {
+      background-color:  rgb(177, 177, 177);
+      color: black;
+   
+    }
+    
+    .buttonfct:hover {
+      background-color: rgb(115, 115, 115);
+      color: white;
+    }
+    .buttonsub {
+        background-color:  rgb(177, 177, 177);
+        color: rgb(0, 0, 0);
+       
+    }  
+    .buttonsub:hover {
+        background-color: rgb(115, 115, 115);
+        color: white;
+    }
+   
+    .button1 {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+      
+    }
+    
+    .button1:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    
+    .button2 {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button2:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    .button3 {
+      background-color: white;
+      color: rgb(0, 0, 0);
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button3:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    .buttonmas {
+      background-color: rgb(177, 177, 177);
+      color: black;
+   
+    }
+    
+    .buttonmas:hover {
+      background-color: rgb(115, 115, 115);
+      color: white;
+    }
+    .button4 {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button4:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    
+    .button5 {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button5:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    .button6 {
+      background-color: white;
+      color: rgb(0, 0, 0);
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button6:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    .buttonmenos {
+      background-color: rgb(177, 177, 177);
+      color: black;
+     
+    }
+    
+    .buttonmenos:hover {
+      background-color: rgb(115, 115, 115);
+      color: white;
+    }
+    .button7 {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button7:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    
+    .button8 {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button8:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    .button9 {
+      background-color: white;
+      color: rgb(0, 0, 0);
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .button9:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    .buttonmult {
+      background-color: rgb(177, 177, 177);
+      color: black;
+     
+    }
+    
+    .buttonmult:hover {
+      background-color: rgb(115, 115, 115);
+      color: white;
+    }
+    .button0 {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+    }
+    .button0:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    
+    .buttonpunt {
+      background-color: white;
+      color: black;
+      border: 2px solid rgb(230, 230, 230);
+    }
+    
+    .buttonpunt:hover {
+      background-color: rgb(230, 230, 230);
+      color: black;
+    }
+    .buttonig {
+      background-color: rgb(24, 187, 236);
+      color:  white;
+      
+     
+    }
+    
+    .buttonig:hover {
+      background-color: rgb(40, 88, 218);
+      color: aquamarine;
+    }
+    .buttondiv {
+      background-color: rgb(177, 177, 177);
+      color: black;
+     
+    }
+    
+    .buttondiv:hover {
+      background-color: rgb(115, 115, 115);
+      color: white;
+    }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>
+<meta charset="utf-8">
+
+    <link rel="stylesheet" href="calcu.css">
+    <script src="calculadora.js" type="text/javascript">
+
+    </script>   
+    
+  
+   <body> 
+      
+      
+    <form name="calculator"> 
+      <input class="text"  id="pantalla"  name="ans" value="" onClick="vaciar()">
+     <input class="button buttonac" type="reset" value="AC">
+      
+      <br>
+      <input class="button button1" type="button" value="1" onClick="document.calculator.ans.value+='1'">
+      <input class="button button2" type="button" value="2" onClick="document.calculator.ans.value+='2'">
+      <input class="button button3" type="button" value="3" onClick="document.calculator.ans.value+='3'">
+      <input class="button buttonmas" type="button" value="+" onClick="document.calculator.ans.value+='+'">
+      <br>
+      <input class="button button4" type="button" value="4" onClick="document.calculator.ans.value+='4'">
+      <input class="button button5" type="button" value="5" onClick="document.calculator.ans.value+='5'">
+      <input class="button button6" type="button" value="6" onClick="document.calculator.ans.value+='6'">
+      <input class="button buttonmenos" type="button" value="-" onClick="document.calculator.ans.value+='-'">
+      <br>
+      <input class="button button7" type="button" value="7" onClick="document.calculator.ans.value+='7'">
+      <input class="button button8" type="button" value="8" onClick="document.calculator.ans.value+='8'">
+      <input class="button button8" type="button" value="9" onClick="document.calculator.ans.value+='9'">
+      <input class="button buttonmult" type="button" value="*" onClick="document.calculator.ans.value+='*'">
+      <br>
+      <input class="button button0" type="button" value="0" onClick="document.calculator.ans.value+='0'">
+      <input class="button buttonpunt" type="button" value="." onClick="document.calculator.ans.value+='.'">
+      <input class="button buttonig" type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+      <input class="button buttondiv" type="button" value="/" onClick="document.calculator.ans.value+='/'">
+
+    </form>
+      <button class="button buttonsub" type="button" id="cuadrado" onclick="cuadrado()">x<sup>2</sup></button>
+      <button class="button buttonmod" type="button" id="mod" onclick="mod()">mod()</button>
+      <button class="button buttonfct" type="button" id="fact" onclick="fact()">n!</button>
+        <br>
+      <button class="button buttoninv" type="button" id="inv" onclick="inv()">1/x</button>
+       <button class="button buttonraiz" type="button" id="raiz" onclick="raiz()">√</button>
+        <button class="button buttonPI" type="button" id="" onclick="PI()">π</button>
+       
+</body>  
+
+</html>
